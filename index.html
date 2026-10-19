@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Airlake</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-floor_1_office">
+        <li class="text">Floor_1_Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-floor_1_foyey_a">
+        <li class="text">Floor_1_Foyey_a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-floor_1_foyer_b">
+        <li class="text">Floor_1_Foyer_b</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-floor_1_greatroom">
+        <li class="text">Floor_1_GreatRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-floor_1_kitchen">
+        <li class="text">Floor_1_Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-floor_1_diningroom">
+        <li class="text">Floor_1_DiningRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-floor_1_sunroom">
+        <li class="text">Floor_1_SunRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-floor_1_laundryroom">
+        <li class="text">Floor_1_LaundryRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-floor_1_closet">
+        <li class="text">Floor_1_Closet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-floor_1_powderroom">
+        <li class="text">Floor_1_PowderRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-floor_1_mudroom">
+        <li class="text">Floor_1_Mudroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-floor_1_garage">
+        <li class="text">Floor_1_Garage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-floor_2_stairs">
+        <li class="text">Floor_2_Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-floor_2_loft">
+        <li class="text">Floor_2_Loft</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-floor_0_stairs">
+        <li class="text">Floor_0_Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-floor_0_recroom_a">
+        <li class="text">Floor_0_RecRoom_a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-floor_0_recroom_b">
+        <li class="text">Floor_0_RecRoom_b</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-floor_0_recroom_c">
+        <li class="text">Floor_0_RecRoom_c</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-floor_0_bathroom">
+        <li class="text">Floor_0_Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-floor_0_bedroom5">
+        <li class="text">Floor_0_Bedroom5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-floor_0_storageroom">
+        <li class="text">Floor_0_StorageRoom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-floor_0_mechanical_room_a">
+        <li class="text">Floor_0_Mechanical_Room_a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-floor_2_hallway_a">
+        <li class="text">Floor_2_Hallway_a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-floor_2_bedroom2">
+        <li class="text">Floor_2_Bedroom2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-floor_2_bathroom2">
+        <li class="text">Floor_2_Bathroom2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-floor_2_bedroom3">
+        <li class="text">Floor_2_Bedroom3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-floor_2_bathroom3">
+        <li class="text">Floor_2_Bathroom3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-floor_2_bedroom4">
+        <li class="text">Floor_2_Bedroom4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-floor_2_bedroom4_closet">
+        <li class="text">Floor_2_Bedroom4_Closet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-floor_2_linen_closet">
+        <li class="text">Floor_2_Linen_Closet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-floor_2_hallway_c">
+        <li class="text">Floor_2_Hallway_c</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-floor_2_bedroom_master">
+        <li class="text">Floor_2_Bedroom_Master</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-floor_2_bathroom_master">
+        <li class="text">Floor_2_Bathroom_Master</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-floor_2_toilet_master">
+        <li class="text">Floor_2_Toilet_Master</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-floor_2_master_closet">
+        <li class="text">Floor_2_Master_Closet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-floor_2_bedroom2_closet">
+        <li class="text">Floor_2_Bedroom2_Closet</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-house_front">
+        <li class="text">House_Front</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-house_back">
+        <li class="text">House_Back</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-floor_2_attic_bedroom2">
+        <li class="text">Floor_2_Attic_Bedroom2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-floor_2_attic_master">
+        <li class="text">Floor_2_Attic_Master</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-floor_2_attic_bedroom4">
+        <li class="text">Floor_2_Attic_Bedroom4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-floor_2_attic_loft">
+        <li class="text">Floor_2_Attic_Loft</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
